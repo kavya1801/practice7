@@ -70,7 +70,7 @@ h1{
     background-color: rgba(255,255,255,0.1);
     position:relative;
     bottom:380px;
-    left:150px;
+    left:50px;
     text-align: center;
 }
 .bot{
@@ -82,6 +82,6 @@ h1{
     font-size: 25px;
     font-weight: 200;
     position: relative;
-    left:970px;
+    left:870px;
     bottom:320px;
 }
