@@ -1,0 +1,87 @@
+body{
+    background-image: url("pic/bg.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: cursive;
+}
+h1{
+    font-family: cursive;
+    color:aliceblue;
+    font-size: xxx-large;
+    padding-top: 280px;;
+}
+.top{
+    background-color: black;
+    overflow:hidden;
+}
+.top a{
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    color:white;
+    padding:15px 17px;
+    float:left;
+}
+.drop{
+    float:left;
+    overflow:hidden;
+}
+.drop .down{
+    font-size:17px;
+    border:none;
+    color:white;
+    padding:15px 17px;
+    font-family: inherit;
+    background-color:inherit;
+    margin:0px;
+    outline:none;
+}
+.top a:hover{
+    background-color: dodgerblue;
+}
+.drop:hover .down{
+    background-color: dodgerblue;
+}
+.content{
+    position:absolute;
+    display:none;
+    background-color:paleturquoise;
+    min-width:156px;
+    z-index:1;
+}
+.content a{
+    float:none;
+    color:black;
+    text-decoration: none;
+    padding:13px 17px;
+    display:block;
+    text-align: left;
+}
+.drop:hover .content{
+    display:block;
+}
+.content a:hover{
+    background-color:hotpink;
+}
+.tab{
+    height:280px;
+    width:500px;
+    background-color: rgba(255,255,255,0.1);
+    position:relative;
+    bottom:380px;
+    left:15px;
+    text-align: center;
+}
+.bot{
+    list-style-type: circle;
+    height:430px;
+    width:380px;
+    background-color: rgba(255,255,255,0.1);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    position: relative;
+    left:770px;
+    bottom:320px;
+}
